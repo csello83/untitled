@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
 import { TeamListComponent } from './components/team-list/team-list.component';
 import { TeamDetailsComponent } from './components/team-details/team-details.component';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [

@@ -1,0 +1,16 @@
+<table class="table">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Team name</th>
+    <th scope="col">Country</th>
+  </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let team of teams" (click)="goToTeamDetails(team.id)">
+    <td>{{ team.id }}</td>
+    <td>{{ team.name }}</td>
+    <td>{{ team.country }}</td>
+   </tr>
+  </tbody>
+</table>
